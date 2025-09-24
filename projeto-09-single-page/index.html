@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="robots" content="index, follow">
+    <meta charset="UTF-8">
+    <meta name="author" content="vitor nascimento">
+    <meta name="keywords" content="call-to-action,flexbox,hero">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="land page com afinalidade de chamar a atenção do usuário e efetuar uma venda">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/icone.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="main-header">
+        <a href="#hero" class="logo">MeuSite</a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="testimonials">Depoimentos</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Bem-vindo ao Nosso Espaço Criativo</h1>
+                <p><a href="#contact" class="hero-buttom">Entre em contato</a></p>
+            </div>
+        </section>
+        <section id="gallery" class="gallery-section">
+            <div class="conteiner">
+                <h2 class="section-title">Nossa Galeria</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"><img src="assets/fone-Bose.jpg" alt=""></div>
+                    <div class="gallery-item"><img src="assets/fone-JBL.jpg" alt=""></div>
+                    <div class="gallery-item"><img src="assets/fone-sony-WH-1000xm5.jpg" alt=""></div>
+                    <div class="gallery-item"><img src="assets/Fone-StageHero6.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section_title">O que Dizem sobre nós</h2>
+                <div class="testimonials-grid">
+                    <article class="testimonial-card">
+                        <img src="assets/pessoa.jpg" alt="foto de João" class="testimonial-avatar">
+                        <blockquote>"Trabalho impecável. Transformaram minha ideia de fone para outro Nivel!"
+                        </blockquote>
+                        <cite>João Pereira</cite>
+                    </article>
+                    <article class="testimonial-card">
+                        <img src="assets/pessoa02.jpg" alt="foto de Marcio" class="testimonial-avatar">
+                        <blockquote>"Profissionalismo e entrega no prazo. Superou minhas expectativas"</blockquote>
+                        <cite>Marcio Silva</cite>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="form-container">
+                <h2 class="section-title">Fale Conosco</h2>
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Nome</label><input type="text" id="name" name="user_name">
+                        <div class="form-group"><label for="email">E-mail</label><input type="email" id="email"
+                                name="user_email"><button class="submit-button" type="submit">Enviar</button></div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2025 MeuSite. todos os direitos reservado</p>
+    </footer>
+</body>
+
+</html>
